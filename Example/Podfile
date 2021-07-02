@@ -1,13 +1,7 @@
 use_frameworks!
 
-platform :ios, '9.0'
+platform :ios, '10.0'
 
 target 'FSQQShare_Example' do
   pod 'FSQQShare', :path => '../'
-
-  target 'FSQQShare_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end
